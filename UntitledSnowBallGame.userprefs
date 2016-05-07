@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Pooling/PoolMovement.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MovementControls.cs" Line="33" Column="56" />
+      <File FileName="Assets/Scripts/PlayerForce.cs" Line="20" Column="25" />
+      <File FileName="Assets/Scripts/SmoothFollow.cs" Line="15" Column="2" />
+      <File FileName="Assets/Scripts/Pooling/PoolMovement.cs" Line="3" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
