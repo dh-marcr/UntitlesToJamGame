@@ -12,10 +12,14 @@ public class MovementControls : MonoBehaviour
 
 	public float movementSpeed = 2;
 
+	public Transform thisFollows;
+
 	void Update()
 	{
 		Movement();
 		UserInputs();
+
+		thisFollows.localPosition = new Vector3 (transform.localPosition.x, transform.localPosition.y, transform.localPosition.z);
 	}    
 
 	void Movement()
@@ -37,13 +41,6 @@ public class MovementControls : MonoBehaviour
 	{
 
 		//Left joystick
-		if (Input.GetAxis ("CTL_LeftStickX") > 0.19f) {
-			Debug.Log ("left joystick pointing right");
-		}
-
-		if (Input.GetAxis ("CTL_LeftStickX") < 0) {
-			Debug.Log ("left joystick pointing left");
-		}
 
 		if (Input.GetAxis ("CTL_LeftStickY") > 0.19f) {
 			Debug.Log ("left joystick pointing down");
