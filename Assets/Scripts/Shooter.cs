@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Shooter : MonoBehaviour {
 
 	Rigidbody rB;
+
+	public Transform origin;
 
 	void Start () {
 	
